@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davis Long</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <style>
+        /* .side_by_side_image {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .vertical_image {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .image {
+            max-height: 100%;
+            max-width: 28vw;
+            object-fit: contain;
+            margin: 2vw;
+        }
+
+        .image.side_image {
+            margin-top: 0;
+        }
+
+        .image.center_image {
+            margin-top: 0;
+            margin-bottom: 2vw;
+            margin-left: 0;
+            margin-right: 0;
+
+        }
+
+        .image.center_image.first {
+            margin-top: 2vw;
+        } */
+        .side_by_side_image {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            overflow: hidden;
+            margin: -10px;
+
+        }
+
+        .vertical_image {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            max-width: calc(33.33% - 50px);
+            flex: 1;
+            margin: 10px;
+
+        }
+
+        .image {
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: contain;
+            margin: 10px;
+        }
+
+        .image.first {
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<!-- Header -->
+
+<body>
+    <div class="Header_Container">
+        <div class="Column Left">
+            <div class="Nav_Header_Row">
+                <div class="Nav_Column Left">
+                    <div class="Nav_Column_Hover">
+                        <div>Work</div>
+                        <div class="Nav_Box">
+                            <a href="https://pages.uoregon.edu/oepp/dldsn.com/pages/oregonathletics.html">Oregon
+                                Athletics</a>
+                            <a href="https://pages.uoregon.edu/oepp/dldsn.com/pages/mpa.html">Manning
+                                Passing Academy</a>
+                            <a href="https://pages.uoregon.edu/oepp/dldsn.com/pages/illustration.html">Illustration</a>
+                            <a href="https://pages.uoregon.edu/oepp/dldsn.com/pages/nozu.html">Branding</a>
+                            <a href="https://pages.uoregon.edu/oepp/dldsn.com/pages/exploration.html">Exploration</a>
+                            <a href="https://pages.uoregon.edu/oepp/dldsn.com/pages/drone.html">Drone</a>
+                            <a href="https://pages.uoregon.edu/oepp/dldsn.com/pages/video.html">Video</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="Nav_Column Right"><a
+                        href="https://pages.uoregon.edu/oepp/dldsn.com/pages/about.html">About</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="Column Middle">
+            <a href="https://pages.uoregon.edu/oepp/dldsn.com/index.html">
+                <img class="Logo" src="../images/Logo.png" alt="">
+            </a>
+        </div>
+
+        <div class="Column Right">
+            <a href="http://twitter.com/dlong_13"><img class="Social Twitter_Logo" src="../images/twitter.png"
+                    alt=""></a>
+            <a href="https://www.linkedin.com/in/davis-long-325a271b6/"><img class="Social Linkedin_Logo"
+                    src="../images/linkedin.png" alt=""></a>
+            <a href="https://www.behance.net/dldsn"><img class="Social Behance_Logo" src="../images/behance.png"
+                    alt=""></a>
+        </div>
+    </div>
+
+
+
+
+    <image class="Landing_Video" src="../images/mpa1.png"></image>
+
+    <div class="side_by_side_image">
+        <div class="vertical_image">
+            <img class="image" src="../images/mpa2.jpeg">
+            <img class="image side_image" src="../images/mpa4.png">
+            <img class="image side_image" src="../images/mpa6.png">
+            <img class="image side_image" src="../images/mpa8.png">
+            <img class="image side_image" src="../images/mpa10.jpeg">
+            <img class="image side_image" src="../images/mpa12.jpeg">
+            <img class="image side_image" src="../images/mpa14.jpeg">
+
+        </div>
+        <div class="vertical_image">
+            <img class="image" src="../images/mpa3.jpeg">
+            <img class="image side_image" src="../images/mpa5.jpeg">
+            <img class="image side_image" src="../images/mpa7.jpeg">
+            <img class="image side_image" src="../images/mpa9.png">
+            <img class="image side_image" src="../images/mpa11.png">
+            <img class="image side_image" src="../images/mpa13.jpeg">
+            <img class="image side_image" src="../images/mpa15.jpeg">
+            <img class="image side_image" src="../images/mpa16.jpeg">
+        </div>
+
+    </div>
+
+
+
+    <div class="Footer">
+        <p>DAVIS LONG 2023© EUGENE, OR</p>
+    </div>
+
+</body>
+<script src="js/dldsn.js"></script>
+
+</html>

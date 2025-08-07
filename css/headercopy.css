@@ -1,0 +1,107 @@
+/* Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header */
+
+.Header_Container {
+    display: flex;
+    position: absolute;
+    z-index: 5;
+    width: 100vw;
+}
+
+.Column {
+    height: 125px;
+}
+
+.Column.Left {
+    flex: 1;
+
+}
+
+.Column.Middle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Column.Right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Column Left (Nav) */
+.Nav_Header_Row {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.Nav_Column {
+    font-size: 12px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blacl;
+}
+
+
+.Nav_Column.Left {
+    flex: 1;
+}
+
+.Nav_Column_Hover:hover .Nav_Box {
+    display: block;
+}
+
+.Nav_Box {
+    display: none;
+    position: fixed;
+    width: 200px;
+    padding: 10px;
+    background-color: black;
+}
+
+.Nav_Box a {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.Nav_Column.Right {
+    flex: 1;
+    justify-content: left;
+}
+
+/* Column Middle (Logo) */
+.Logo {
+    height: 150px;
+
+}
+
+
+/* Column Right (Socal) */
+.Social {
+    width: 20px;
+    padding: 30px;
+}
+
+.Twitter_Logo {
+    color: None;
+}
+
+.Linkedin_Logo {
+    color: None;
+}
+
+.Behance_Logo {
+    color: None;
+}
+
+.Twitter_Logo,
+.Linkedin_Logo,
+.Behance_Logo {
+    filter: invert(1);
+}
