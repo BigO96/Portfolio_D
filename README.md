@@ -2,11 +2,11 @@
 
 Welcome to Portfolio_D, a portfolio demo built using HTML, CSS, and JavaScript.
 
-<img width="500" alt="" src="images/DemoPic1.png">
+<img width="500" alt="" src="images/DemoPic1.png" style="border: 2px solid black; border-radius: 5px;">
 
-<img width="500" alt="" src="images/DemoPic2.png">
+<img width="500" alt="" src="images/DemoPic2.png" style="border: 2px solid black; border-radius: 5px;">
 
-<img width="500" alt="" src="images/DemoPic3.png">
+<img width="500" alt="" src="images/DemoPic3.png" style="border: 2px solid black; border-radius: 5px;">
 
 This was a creative project made for a peer at the University of Oregon. He worked for GoDucks, displaying what he's made at UO is the main focus of the website. 
 
